@@ -1,9 +1,11 @@
+
 {
-  "name": "server",
+  "name": "fft-final-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "FFT Final Project",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +15,7 @@
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.3.0",
-    "multer": "^2.4.0"
+    "multer": "^2.2.4"
   }
 }
+
