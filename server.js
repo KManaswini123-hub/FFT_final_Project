@@ -1,4 +1,4 @@
-
+﻿
 const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
@@ -6,7 +6,7 @@ const path = require("path");
 const multer = require("multer");
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
@@ -61,8 +61,10 @@ function getDaysLeft(dateString) {
   return Math.ceil((expiry - today) / (1000 * 60 * 60 * 24));
 }
 
+app.use(express.static(path.join(__dirname, "client", "dist")));
+
 app.get("/", (req, res) => {
-  res.json({ message: "Smart Warranty Manager API is running!" });
+  res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
 });
 
 app.get("/api/products", (req, res) => {
@@ -234,3 +236,5 @@ app.get("/api/reminders", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
+
+

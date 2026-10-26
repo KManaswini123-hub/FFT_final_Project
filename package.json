@@ -1,15 +1,12 @@
-
-{
-  "name": "fft-final-project",
+﻿{
+  "name": "warrantywise",
   "version": "1.0.0",
-  "description": "FFT Final Project",
+  "description": "Smart Warranty and Product Service Reminder Manager",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm install --prefix client && npm run build --prefix client",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
@@ -18,4 +15,3 @@
     "multer": "^2.2.4"
   }
 }
-
