@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1792309745538",
+    "name": "laptop",
+    "brand": "lenovo",
+    "purchaseDate": "2025-11-01",
+    "warrantyMonths": 12,
+    "warrantyExpiry": "2026-11-01",
+    "documents": [
+      {
+        "name": "Screenshot 2025-07-11 154045.png",
+        "filename": "1792389546782-Screenshot_2025-07-11_154045.png",
+        "url": "/uploads/1792389546782-Screenshot_2025-07-11_154045.png"
+      },
+      {
+        "name": "Coursera W8ZNBC5Q1ANL.pdf",
+        "filename": "1792393732265-Coursera_W8ZNBC5Q1ANL.pdf",
+        "url": "/uploads/1792393732265-Coursera_W8ZNBC5Q1ANL.pdf"
+      }
+    ],
+    "services": [],
+    "maintenance": [
+      {
+        "id": "1792393177155",
+        "date": "2026-10-19",
+        "description": "Air conditioner servicing",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": "1792310089220",
+    "name": "mobile",
+    "brand": "one plus",
+    "purchaseDate": "2024-01-18",
+    "warrantyMonths": 12,
+    "warrantyExpiry": "2025-01-18",
+    "documents": [],
+    "services": [
+      {
+        "id": "1792392905740",
+        "date": "2026-10-19",
+        "description": "parts replaced and serviced",
+        "cost": 1500
+      }
+    ],
+    "maintenance": []
+  },
+  {
+    "id": "1792648607803",
+    "name": "fan",
+    "brand": "usha",
+    "purchaseDate": "2026-10-22",
+    "warrantyMonths": 12,
+    "warrantyExpiry": "2027-10-22",
+    "documents": [],
+    "services": [
+      {
+        "id": "1792648660379",
+        "date": "2026-10-22",
+        "description": "parts repair",
+        "cost": 1000
+      }
+    ],
+    "maintenance": []
+  }
+]
